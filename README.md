@@ -68,10 +68,9 @@ This design promotes modularity, testability, and maintainability, aligning with
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
+    git clone https://github.com/kidlitty/Weather-API
+    cd Weather-API
     ```
-    *(**Note:** Replace `YOUR_GITHUB_USERNAME` and `YOUR_REPO_NAME` with your actual GitHub username and the name of your repository.)*
 
 2.  **Build the Project:**
     Open your terminal, navigate to the project's root directory (where `pom.xml` is located), and execute the Maven build command:
@@ -83,9 +82,8 @@ This design promotes modularity, testability, and maintainability, aligning with
 3.  **Run the Application:**
     From the same directory, launch the application:
     ```bash
-    mvn exec:java -Dexec.mainClass="com.weatherapi.WeatherApp"
+    mvn exec:java -Dexec.mainClass="com.weatherapi.WeatherApi"
     ```
-    *(Confirm that `com.weatherapi.WeatherApp` correctly reflects the package and class name of your main application entry point.)*
 
 4.  **Interactive Prompts:**
     Upon execution, the application will guide you through:
